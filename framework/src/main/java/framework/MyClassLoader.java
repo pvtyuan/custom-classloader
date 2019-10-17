@@ -9,8 +9,8 @@ import java.net.URLClassLoader;
  * Created by pvtyuan on 2019/10/17.
  */
 public class MyClassLoader extends URLClassLoader {
-    public MyClassLoader(URL[] urls) {
-        super(urls, null);
+    public MyClassLoader(URL[] urls, ClassLoader parent) {
+        super(urls, parent);
     }
 
     @Override

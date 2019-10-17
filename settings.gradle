@@ -1,2 +1,2 @@
 rootProject.name = 'custom-classloader'
-include 'app', 'framework'
+include 'app', 'framework', 'service'
